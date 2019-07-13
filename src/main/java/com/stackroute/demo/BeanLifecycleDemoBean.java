@@ -4,7 +4,6 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 
-@Component
 public class BeanLifecycleDemoBean implements InitializingBean, DisposableBean {
     @Override
     public void destroy() throws Exception {

@@ -11,10 +11,5 @@ public class Main {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MainConfig.class);
         Movie movie3 = context.getBean( Movie.class);
         movie3.movieDisplayInfo();
-        Movie movie2 = context.getBean( Movie.class);
-       // movie2.movieDisplayInfo();
-        System.out.println(movie3==movie2);
-
-
     }
 }
